@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:background="@android:color/white"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!--첫번쨰-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--현장C-->
+                <TextView
+                    android:id="@+id/detail_line_1_title"
+                    style="@style/menu_layout_1_title"
+                    android:text="@string/detail_line_1_title"
+                    />
+
+                  <!--현장 이름-->
+                <TextView
+                    android:layout_below="@+id/detail_line_1_title"
+                    android:id="@+id/detail_line_1_value_1"
+                    style="@style/menu_layout_1_value"
+                    android:text="@string/detail_line_1_value_1"
+                    />
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--첫번쨰-->
+
+        <!--두번쨰-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--현장C-->
+                <TextView
+                    android:id="@+id/detail_line_2_title"
+                    style="@style/menu_layout_1_title"
+                    android:text="@string/detail_line_2_title"
+                    />
+
+               <RadioGroup
+                   android:layout_below="@+id/detail_line_2_title"
+                   android:id="@+id/radio_group_2"
+                   android:orientation="vertical"
+                   android:layout_width="match_parent"
+                   android:layout_height="match_parent"
+                   >
+
+                   <RadioButton
+                       style="@style/menu_layout_1_radio"
+                       android:text="@string/detail_line_2_value_1"
+                       android:id="@+id/rg_2_btn1"
+                       />
+
+                   <RadioButton
+                       style="@style/menu_layout_1_radio"
+                       android:text="@string/detail_line_2_value_2"
+                       android:id="@+id/rg_2_btn2" />
+
+               </RadioGroup>
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--두번쨰-->
+
+        <!--세번쨰-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--현장C-->
+                <TextView
+                    android:id="@+id/detail_line_3_title"
+                    style="@style/menu_layout_1_title"
+                    android:text="@string/detail_line_3_title"
+                    />
+
+                <RadioGroup
+                    android:layout_below="@+id/detail_line_3_title"
+                    android:id="@+id/radio_group_3"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    >
+
+                    <RadioButton
+                        style="@style/menu_layout_1_radio"
+                        android:text="@string/detail_line_3_value_1"
+                        android:id="@+id/rg_3_btn1"
+                        />
+
+                    <RadioButton
+                        style="@style/menu_layout_1_radio"
+                        android:text="@string/detail_line_3_value_2"
+                        android:id="@+id/rg_3_btn2" />
+
+                </RadioGroup>
+
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--세번쨰-->
+
+        <!--네번쨰-->
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="4dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <!--현장C-->
+                <TextView
+                    android:id="@+id/detail_line_4_title"
+                    style="@style/menu_layout_1_title"
+                    android:text="@string/detail_line_4_title"
+                    />
+
+                <!--현장C-->
+                <EditText
+                    android:id="@+id/detail_line_4_edittext"
+                    style="@style/menu_layout_1_value"
+                    />
+
+                <!--현장C-->
+                <TextView
+                    android:layout_below="@+id/detail_line_4_edittext"
+                    android:id="@+id/detail_line_4_value_1"
+                    style="@style/menu_layout_1_value"
+                    android:text="@string/detail_line_4_value_1"
+                    />
+
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.CardView>
+        <!--네번쨰-->
+
+        <!--마지막 버튼-->
+        <!--저장-->
+        <RelativeLayout
+            android:id="@+id/detail_line_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <Button
+                android:id="@+id/detail_line_5_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerInParent="true"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@drawable/rounded_bottom_button"
+                android:text="@string/detail_line_5_value_1"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_medium"
+                />
+
+        </RelativeLayout>
+        <!--마지막 버튼-->
+        <!--저장-->
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>
+
+

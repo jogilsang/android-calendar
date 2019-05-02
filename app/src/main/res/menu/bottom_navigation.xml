@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--TODO : showAsAction -> icon 원하면 withText-->
+    <!--android:icon="@drawable/ic_home_24dp"-->
+    <item
+        android:icon="@drawable/ic_date"
+        android:id="@+id/navigation_1"
+        android:title="@string/tab_1"
+        android:checked="true"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <!--android:icon="@drawable/ic_attach_money_24dp"-->
+    <item
+        android:id="@+id/navigation_2"
+        android:icon="@drawable/ic_work"
+        android:title="@string/tab_2"
+        android:checked="false"
+        app:showAsAction="ifRoom|withText"
+        />
+
+    <!--android:icon="@drawable/ic_thumb_up_24dp"-->
+    <item
+        android:icon="@drawable/ic_alarm"
+        android:id="@+id/navigation_3"
+        android:title="@string/tab_3"
+        android:checked="false"
+        app:showAsAction="ifRoom|withText"
+        />
+
+</menu>

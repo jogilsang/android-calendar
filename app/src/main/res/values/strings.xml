@@ -1,0 +1,92 @@
+<resources>
+    <string name="app_name">공수달력</string>
+
+    <string name="label_activity_money">기존 적립금 설정</string>
+    <!--TODO : 액티비티 바뀌면 값 받아야함-->
+    <string name="label_activity_detail">현장설정</string>
+
+    <string name="admob">ca-app-pub-2941191831662280~3241240548</string>
+    <string name="ad_unit_id">ca-app-pub-2941191831662280/4171178830</string>
+    <string name="test_ad_unit_id"> ca-app-pub-3940256099942544/1033173712</string>
+
+    <string name="tab_1">달 력</string>
+    <string name="tab_2">현장설정</string>
+    <string name="tab_3">알람기능</string>
+
+    <string name="menu_header_layout_1_txt_1">메뉴화면</string>
+    <string name="menu_header_layout_2_txt_1">적립내역</string>
+    <string name="menu_header_layout_2_txt_2">출금하기</string>
+    <string name="menu_header_layout_2_txt_3">추천하기</string>
+
+    <string name="nav_header_title">test</string>
+
+    <string name="menu_list_txt_1">공지사항</string>
+    <string name="menu_list_txt_2">기존 적립금 설정</string>
+    <string name="menu_list_txt_3">버전 1.0</string>
+
+    <string name="title_mainactivity">공수관리앱</string>
+
+    <!--tab2_title : ex : 현장A-->
+    <string name="tab_2_line_1_title_1">현장A</string>
+    <string name="tab_2_line_1_title_2">현장B</string>
+    <string name="tab_2_line_1_title_3">현장C</string>
+    <string name="tab_2_line_2_title_1">현장D</string>
+    <string name="tab_2_line_2_title_2">현장E</string>
+    <string name="tab_2_line_2_title_3">현장F</string>
+    <string name="tab_2_line_3_title_1">현장G</string>
+    <string name="tab_2_line_3_title_2">현장H</string>
+    <string name="tab_2_line_3_title_3">적용안함</string>
+
+    <!--tab2_value : ex : 마곡현장, 생산동 현장-->
+    <string name="tab_2_line_1_value_1"></string>
+    <string name="tab_2_line_1_value_2"></string>
+    <string name="tab_2_line_1_value_3"></string>
+    <string name="tab_2_line_2_value_1"></string>
+    <string name="tab_2_line_2_value_2"></string>
+    <string name="tab_2_line_2_value_3"></string>
+    <string name="tab_2_line_3_value_1"></string>
+    <string name="tab_2_line_3_value_2"></string>
+    <string name="tab_2_line_3_value_3"></string>
+
+    <!--detail Activity-->
+    <!--detail_title : ex : 현장C-->
+    <!--TODO : 코드에서 받아와야함-->
+    <string name="detail_line_1_title">현장이름</string>
+    <string name="detail_line_2_title">적립금 설정</string>
+    <string name="detail_line_3_title">적립금 적용</string>
+    <string name="detail_line_4_title">공수금액 설정</string>
+
+    <!--detail_value-->
+    <string name="detail_line_1_value_1">현장이름</string>
+    <string name="detail_line_2_value_1">보이기</string>
+    <string name="detail_line_2_value_2">보이지 않게 하기</string>
+    <string name="detail_line_3_value_1">적용</string>
+    <string name="detail_line_3_value_2">미적용</string>
+    <string name="detail_line_4_value_1">현장마다 금액차이가 있으니 확인 후 입력하세요.</string>
+    <string name="detail_line_5_value_1">확인</string>
+
+    <string name="tab_3_line_1_title">알림기능</string>
+    <string name="tab_3_line_2_title">요일 설정</string>
+    <string name="tab_3_line_3_title">시간 설정</string>
+
+    <string name="tab3_line_1_value_1">설정</string>
+    <string name="tab3_line_1_value_2">설정하지 않기</string>
+
+    <string name="tab3_line_2_value_1">월</string>
+    <string name="tab3_line_2_value_2">화</string>
+    <string name="tab3_line_2_value_3">수</string>
+    <string name="tab3_line_2_value_4">목</string>
+    <string name="tab3_line_2_value_5">금</string>
+    <string name="tab3_line_2_value_6">토</string>
+    <string name="tab3_line_2_value_7">일</string>
+    <string name="temp_1">temp</string>
+    <string name="money_line_1_title">기존적립금 금액 설정</string>
+    <string name="money_line_2_value_2">근로공제회 사이트 참조하기</string>
+    <string name="money_line_2_title">기존 적립금 확인</string>
+    <string name="action_drawer">menu</string>
+    <string name="text_share_head">공수관리앱\n\n</string>
+    <string name="text_share_tail">초대링크 :</string>
+
+    <!--detail Activity-->
+
+</resources>

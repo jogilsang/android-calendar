@@ -1,0 +1,656 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--기본 저장 문자 불러오기-->
+        <RelativeLayout
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:id="@+id/tab3_layout_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tab3_layout_1_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/tab_3_line_1_title"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/tab3_layout_1_title"
+                app:cardCornerRadius="4dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:padding="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <RadioGroup
+                        android:id="@+id/radio_group_1"
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        >
+
+                        <RadioButton
+                            style="@style/tab2_layout_radio"
+                            android:text="@string/tab3_line_1_value_1"
+                            android:id="@+id/rg_1_btn1"
+                            />
+
+                        <RadioButton
+                            style="@style/tab2_layout_radio"
+                            android:text="@string/tab3_line_1_value_2"
+                            android:id="@+id/rg_1_btn2" />
+
+                    </RadioGroup>
+
+                </RelativeLayout>
+
+
+
+
+            </android.support.v7.widget.CardView>
+
+
+        </RelativeLayout>
+
+        <!--제목-->
+        <RelativeLayout
+            android:id="@+id/tab3_layout_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tab3_layout_2_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/tab_3_line_2_title"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/tab3_layout_2_title"
+                app:cardCornerRadius="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!--월-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_1"
+                        android:id="@+id/rg_2_btn1"
+                        />
+
+                    <!--화-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_2"
+                        android:id="@+id/rg_2_btn2"
+                        />
+                    <!--수-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_3"
+                        android:id="@+id/rg_2_btn3"
+                        />
+                    <!--먹-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_4"
+                        android:id="@+id/rg_2_btn4"
+                        />
+                    <!--금-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_5"
+                        android:id="@+id/rg_2_btn5"
+                        />
+                    <!--토-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_6"
+                        android:id="@+id/rg_2_btn6"
+                        />
+                    <!--일-->
+                    <RadioButton
+                        style="@style/tab2_layout_radio"
+                        android:text="@string/tab3_line_2_value_7"
+                        android:id="@+id/rg_2_btn7"
+                        />
+
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/tab3_layout_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            >
+
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_alignParentTop="true"
+                android:id="@+id/tab3_layout_3_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/tab_3_line_3_title"
+                />
+
+            <android.support.v7.widget.CardView
+                android:layout_below="@+id/tab3_layout_3_title"
+                app:cardCornerRadius="4dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_margin="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <TimePicker
+                            android:id="@+id/time_picker"
+                            android:timePickerMode="spinner"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent" />
+
+                    </LinearLayout>
+
+                </RelativeLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <!--지역-->
+        <!--<RelativeLayout-->
+        <!--android:id="@+id/tab2_layout_3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="20dp"-->
+        <!--android:layout_marginRight="20dp"-->
+        <!--&gt;-->
+
+        <!--<TextView-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:id="@+id/tab2_layout_3_title"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textColor="@color/black"-->
+        <!--android:text="지역 : "-->
+        <!--/>-->
+
+
+        <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_below="@+id/tab2_layout_3_title"-->
+        <!--app:cardCornerRadius="4dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:layout_marginBottom="10dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:weightSum="1"-->
+        <!--android:layout_margin="20dp"-->
+        <!--&gt;-->
+
+        <!--&lt;!&ndash; 지역 첫번째 줄&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.25"-->
+        <!--android:orientation="horizontal"-->
+
+        <!--android:weightSum="1"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_1"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_2"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_3"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_4"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_5"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash; 지역 두번째 줄&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.25"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_6"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_7"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_8"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_9"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_10"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash; 지역 세번째 줄&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.25"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_11"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_12"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_13"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_14"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_15"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+        <!--&lt;!&ndash; 지역 네번째 줄&ndash;&gt;-->
+        <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="0dp"-->
+        <!--android:layout_weight="0.25"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:weightSum="1"-->
+        <!--&gt;-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_16"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+        <!--<RelativeLayout-->
+        <!--android:layout_weight="0.2"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:padding="3dp"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:text="@string/region_17"-->
+        <!--android:gravity="center"-->
+        <!--android:textSize="@dimen/text_small"-->
+        <!--android:background="@drawable/rounded_border_button"-->
+        <!--/>-->
+
+        <!--</RelativeLayout>-->
+
+
+
+
+
+
+
+        <!--</LinearLayout>-->
+
+
+
+        <!--</LinearLayout>-->
+
+        <!--</android.support.v7.widget.CardView>-->
+
+
+
+        <!--</RelativeLayout>-->
+
+        <!--이미지-->
+
+
+        <!--발송주기-->
+
+
+        <!--저장-->
+        <RelativeLayout
+            android:id="@+id/tab2_layout_6"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.2"
+            android:layout_marginBottom="20dp"
+            >
+
+            <Button
+                android:id="@+id/tab2_layout_6_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_centerInParent="true"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:background="@drawable/rounded_bottom_button"
+                android:text="저 장"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_medium"
+                />
+
+        </RelativeLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
+
+
